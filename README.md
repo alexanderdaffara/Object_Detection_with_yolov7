@@ -36,10 +36,23 @@ The precision-recall curve is then plotted for each object class by varying the 
 For your project, you will calculate the mAP for two object classes, vehicles and pedestrians, using the IoU threshold of 0.5 to 0.95. The mAP metric will help you evaluate and compare the performance of different models you train, and determine which one performs better in detecting vehicles and pedestrians in the images.
 
 # Modelling
-We started by comparing two pre-trained models, MobilenetSSD and Yolov7. The first simple model used MobileNetSSD with no custom training, which scored mAP .003. Yolov7 with no custom training scored mAP .005. Yolov7 trained on half the training data scored mAP .33, and Yolov7 trained on the full dataset scored mAP .27.
+I am using the Yolov7 (You Only Look Once) model.  
+Yolov7 with no custom training scored mAP 0.005.  
+Yolov7 trained on half the training data scored mAP .33
+Yolov7 trained on the full dataset scored mAP .27.
+
+# Use case
+![usecase](https://raw.githubusercontent.com/alexanderdaffara/Object_Detection_with_yolov7/main/data/use_case.png)
 
 # Conclusion
-The results of this project indicate that it is possible to use object detection models to estimate traffic volume at a vehicle's location using camera data. However, there is still room for improvement, especially in the development of more accurate models that can handle more complex scenarios. Future work could include the integration of lidar sensor data to further enhance the accuracy of our models.
+The results of this project indicate that it is possible to use object detection models to estimate traffic volume at a vehicle's location using camera data. However, there is still room for improvement, especially in the development of more accurate models that can handle more complex scenarios.  
+
+# Future work 
+In the future I would:
+1. Introduce training Data variety 
+2. Gather data over time for specific locations so that I could estimate trends to determine traffic level and compare with current levels
+3. Optimize the tool for parked cars and obstructive vehicles
+
 
 
 
