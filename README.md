@@ -1,4 +1,4 @@
-![header][]
+![header](https://raw.githubusercontent.com/alexanderdaffara/Object_Detection_with_yolov7/main/data/15844593126368860820_3260_000_3280_000%3B1559178780337582.jpg)
 Alexander Claudino Daffara
 Flatiron DataScience Capstone Project
 https://medium.com/@alexanderdaffara
