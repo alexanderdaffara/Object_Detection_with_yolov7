@@ -39,6 +39,7 @@ For your project, you will calculate the mAP for two object classes, vehicles an
 I am using the Yolov7 (You Only Look Once) model.  
 Yolov7 with no custom training scored mAP 0.005.  
 Yolov7 trained on half the training data scored mAP .33  
+
 Yolov7 trained on half the training data with hyper-parameter tuning scored mAP .33  
 
 Yolov7 trained on the full dataset scored mAP .27.
