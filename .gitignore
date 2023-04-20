@@ -1,0 +1,4 @@
+/yolov7/*
+/model_weights/*
+/data/*
+/.DS_Store
