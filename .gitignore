@@ -1,3 +1,6 @@
-/yolov7/*
+/yolov7/cfg/*
+/yolov7/models/*
+/yolov7/runs/*
+/yolov7/*.pt
 /model_weights/*
 /.DS_Store
