@@ -38,14 +38,21 @@ For your project, you will calculate the mAP for two object classes, vehicles an
 # Modelling
 I am using the Yolov7 (You Only Look Once) model.  
 Yolov7 with no custom training scored mAP 0.005.  
-Yolov7 trained on half the training data scored mAP .33
+Yolov7 trained on half the training data scored mAP .33  
+Yolov7 trained on half the training data with hyper-parameter tuning scored mAP .33  
+
 Yolov7 trained on the full dataset scored mAP .27.
 
 # Use case
+Google Maps can use the following use case tool to determine the traffic level for a given street:
 ![usecase](https://raw.githubusercontent.com/alexanderdaffara/Object_Detection_with_yolov7/main/data/use_case.png)
 
 # Conclusion
-The results of this project indicate that it is possible to use object detection models to estimate traffic volume at a vehicle's location using camera data. However, there is still room for improvement, especially in the development of more accurate models that can handle more complex scenarios.  
+The developed software has the capability to be seamlessly integrated into various systems, including vehicles equipped with camera sensors, the Waymo autonomous driving platform, and existing low-cost vehicle dash cameras.
+
+The tool is designed to provide additional information to improve the accuracy of real-time traffic volume estimation. By using image and video data to detect vehicles and pedestrians, the software can effectively enhance the existing traffic monitoring systems.
+
+In particular, the integration of the software into Google Maps would help to improve the traffic cost function when recommending commute routes to users. With accurate traffic volume estimation, users can be provided with optimal routes based on real-time traffic conditions.
 
 # Future work 
 In the future I would:
