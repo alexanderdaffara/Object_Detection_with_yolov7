@@ -1,7 +1,7 @@
 ![header](https://raw.githubusercontent.com/alexanderdaffara/Object_Detection_with_yolov7/main/data/15844593126368860820_3260_000_3280_000%3B1559178780337582.jpg)
-Alexander Claudino Daffara  
+Author: Alexander Claudino Daffara  
 Flatiron DataScience Capstone Project  
-LinkedIn: https://www.linkedin.com/in/alexanderdaffara/
+LinkedIn: https://www.linkedin.com/in/alexanderdaffara/  
 Blogs: https://medium.com/@alexanderdaffara  
 
 Hi, I'm Alex, a Data Scientist, and in this project, I will be creating an object detection model with the aim of detecting vehicles and pedestrians. Here, I will provide a detailed overview of the project, including the business problem, data understanding, data preparation, metrics, and modeling approach.
@@ -13,7 +13,7 @@ Final_Notebook_Modelling.ipynb contains the modelling done with yolov7
 Unfortunately, the waymo data files are far too large to be uploaded to git.  
   
 /data contains example images for inference  
-/yolov7 contains files downloaded from the yolov7 package https://github.com/WongKinYiu/yolov7  
+/yolov7 contains utility scripts downloaded from the yolov7 package https://github.com/WongKinYiu/yolov7  
 
 
 # Business Understanding
